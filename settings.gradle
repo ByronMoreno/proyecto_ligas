@@ -1,2 +1,2 @@
 rootProject.name = 'proyectos_ligas'
-include 'futbol', 'jugador','eurekaserver'
+include 'futbol', 'jugador','eurekaserver','apigateway'
