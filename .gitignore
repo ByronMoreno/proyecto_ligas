@@ -1,0 +1,107 @@
+##############################
+# Gradle
+##############################
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+**/out/
+
+# Cache de dependencias
+.gradle/
+**/.gradle/
+
+# Archivos generados por Gradle
+gradle-app.setting
+
+##############################
+# Java
+##############################
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+##############################
+# IDEs
+##############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+**/out/
+
+# Configuración del workspace
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/caches/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+**/bin/
+
+##############################
+# Sistema operativo
+##############################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+##############################
+# Herramientas y contenedores
+##############################
+
+# Docker
+**/docker/**/tmp/
+**/docker/tmp/
+**/tmp/
+*.pid
+
+##############################
+# Archivos temporales
+##############################
+*.tmp
+*.swp
+*.swo
+
+##############################
+# Entornos virtuales o locales
+##############################
+.env
+.env.*
+.local
+*.local
+
+##############################
+# Archivos de pruebas
+##############################
+test-output/
+**/test-output/
+hs_err_pid*
