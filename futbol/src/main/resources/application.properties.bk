@@ -9,15 +9,6 @@ spring.datasource.password=
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
 
-debug=true
-
-# ------------------------
-# Config Server por discovery
-# ------------------------
-# Indica usar configserver (sin URL) -> Spring lo buscará por Eureka
-spring.config.import=configserver:
-spring.cloud.config.discovery.enabled=true
-spring.cloud.config.discovery.service-id=CONFIGSERVER
 
 eureka.client.register-with-eureka=true
 eureka.client.fetch-registry=true
